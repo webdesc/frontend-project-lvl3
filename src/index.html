@@ -1,1 +1,20 @@
-<html></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <script src="bundle.js"></script>
+  </head>
+
+  <body>
+    <h3>Add RSS stream</h3>
+    
+    <form class="form-inline">
+      <div class="form-group mx-sm-3 mb-2">
+        <input type="password" class="form-control" id="rss_stream" placeholder="">
+      </div>
+      <button type="submit" class="btn btn-primary mb-2">add</button>
+    </form>
+
+  </body>
+</html>
